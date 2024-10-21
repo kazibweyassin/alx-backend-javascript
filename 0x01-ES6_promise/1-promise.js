@@ -1,4 +1,4 @@
-// a promise that will resolve with the string "Success"
+// A promise that will resolve with the string "Success"
 export default function getFullResponseFromAPI(success) {
     return new Promise((resolve, reject) => {
       if (success) {
